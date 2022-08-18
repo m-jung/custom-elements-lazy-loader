@@ -1,0 +1,26 @@
+{
+  "name": "@m-jung/custom-elements-lazy-loader",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Provides the ability to use custom-elements as if they were natively supported by the browser.",
+  "author": "Martin Jung",
+  "license": "ISC",
+  "main": "./src/custom-elements-lazy-loader.mjs",
+  "types": "./src/custom-elements-lazy-loader.d.tws",
+  "files": [
+    "src/*"
+  ],
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "custom-elements",
+    "webcomponents",
+    "lazy",
+    "load"
+  ],
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3"
+  }
+}
